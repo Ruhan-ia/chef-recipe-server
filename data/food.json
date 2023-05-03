@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "imgUrl": "https://www.example.com/spaghetti-carbonara.jpg",
+      "chef": "Mario Batali",
+      "experience": 30,
+      "numRecipes": 12,
+      
+      "viewRecipesBtn": {
+        "text": "View Recipes",
+        "url": "https://www.example.com/spaghetti-carbonara/recipes"
+      }
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://www.example.com/margherita-pizza.jpg",
+      "chef": "Gino Sorbillo",
+      "experience": 20,
+      "numRecipes": 8,
+      
+      "viewRecipesBtn": {
+        "text": "View Recipes",
+        "url": "https://www.example.com/margherita-pizza/recipes"
+      }
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://www.example.com/lasagna.jpg",
+      "chef": "Giada De Laurentiis",
+      "experience": 25,
+      "numRecipes": 10,
+      
+      "viewRecipesBtn": {
+        "text": "View Recipes",
+        "url": "https://www.example.com/lasagna/recipes"
+      }
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://www.example.com/tiramisu.jpg",
+      "chef": "Massimo Bottura",
+      "experience": 15,
+      "numRecipes": 6,
+      
+      "viewRecipesBtn": {
+        "text": "View Recipes",
+        "url": "https://www.example.com/tiramisu/recipes"
+      }
+    },
+    {
+      "id": 5,
+      "imgUrl": "https://www.example.com/pesto-alla-genovese.jpg",
+      "chef": "Lidia Bastianich",
+      "experience": 35,
+      "numRecipes": 7,
+      
+      "viewRecipesBtn": {
+        "text": "View Recipes",
+        "url": "https://www.example.com/pesto-alla-genovese/recipes"
+      }
+    },
+    {
+      "id": 6,
+      "imgUrl": "https://www.example.com/osso-buco.jpg",
+      "chef": "Gualtiero Marchesi",
+      "experience": 40,
+      "numRecipes": 5,
+      
+      "viewRecipesBtn": {
+        "text": "View Recipes",
+        "url": "https://www.example.com/osso-buco/recipes"
+      }
+    }
+  ]
