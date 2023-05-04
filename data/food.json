@@ -1,11 +1,49 @@
 [
     {
       "id": 1,
-      "imgUrl": "https://www.example.com/spaghetti-carbonara.jpg",
+      "imgUrl": "https://i.ibb.co/kHzWjXR/chef-1.jpg",
       "chef": "Mario Batali",
       "experience": 30,
       "numRecipes": 12,
-      
+      "bio": "Mario Batali is an Italian chef and owner of Osteria Francescana, a three-Michelin-star restaurant based in Modena, Italy. He is known for his innovative approach to Italian cuisine and has been named the World's Best Chef twice by the World's 50 Best Restaurants.",
+      "likes": 25000,
+      "recipes":[
+                {
+                  "name":"Parmigiano Reggiano Five Ages",
+                  "ingredients":[
+                  "pistachios",
+                  "balsamic vinegar",
+                  "extra-virgin olive oil",
+                  "black pepper"],
+                  "cookingMethod": "Grate the cheese and place it in a bowl. Mix in the chopped pistachios, balsamic vinegar, and black pepper. Drizzle with extra-virgin olive oil and serve.",
+                  "rating": 4.8
+                },
+                {
+                  "name": "Spaghetti Aglio e Olio",             
+                  "ingredients": [
+                    "spaghetti",
+                    "garlic",
+                    "olive oil",
+                    "red pepper flakes",
+                    "parmesan cheese"
+                  ],
+                  
+                  "cookingMethod": "Boil the spaghetti according to package instructions. In a separate pan, sauté minced garlic in olive oil until fragrant. Add red pepper flakes and toss in the cooked spaghetti. Serve with parmesan cheese.",
+                  "rating": 4.8
+                },
+                {
+                  "name":"Balsamic Vinegar Jelly",
+                  "ingredients": [
+                    "balsamic vinegar",
+                    "sugar",
+                    "pectin",
+                    "lemon juice",
+                    "water"
+                  ],
+                  "cookingMethod": "Grate the cheese and place it in a bowl. Mix in the chopped pistachios, balsamic vinegar, and black pepper. Drizzle with extra-virgin olive oil and serve.",
+                  "rating": 4.8
+                }
+      ],
       "viewRecipesBtn": {
         "text": "View Recipes",
         "url": "https://www.example.com/spaghetti-carbonara/recipes"
@@ -13,11 +51,52 @@
     },
     {
       "id": 2,
-      "imgUrl": "https://www.example.com/margherita-pizza.jpg",
+      "imgUrl": "https://i.ibb.co/yhxsw9d/chef-2.jpg" ,
       "chef": "Gino Sorbillo",
       "experience": 20,
       "numRecipes": 8,
-      
+      "bio": "Gino Sorbillo is an Italian-American chef, television host, and author. He is the owner of several restaurants, including Felidia and Becco in New York City. He has also hosted several cooking shows on PBS and has written multiple cookbooks.",
+      "likes": 18000,
+            "recipes":[
+                {
+                  "name": "Margherita Pizza",
+
+                  "ingredients": [
+                    "pizza dough",
+                    "tomato sauce",
+                    "fresh mozzarella",
+                    "fresh basil",
+                    "olive oil"
+                  ],
+                  "cookingMethod": "Preheat the oven to 450°F. Roll out the pizza dough and spread tomato sauce over it. Add slices of fresh mozzarella cheese and sprinkle with fresh basil. Drizzle with olive oil and bake for 10-12 minutes until the crust is golden brown.",
+                  "rating": 4.8
+                },
+                {
+                  "name": "Caprese Salad",
+                  "ingredients": [
+                    "tomatoes",
+                    "fresh mozzarella",
+                    "fresh basil",
+                    "olive oil",
+                    "balsamic vinegar"
+                  ],
+                  
+                  "cookingMethod": "Slice the tomatoes and fresh mozzarella cheese and arrange them alternately on a plate. Drizzle with olive oil and balsamic vinegar. Garnish with fresh basil leaves.",
+                  "rating": 4.8
+                },
+                {
+                  "name": "Pesto Pasta",
+                  "ingredients": [
+                    "pasta",
+                    "basil leaves",
+                    "garlic",
+                    "olive oil",
+                    "parmesan cheese"
+                  ],
+                  "cookingMethod": "Boil the pasta according to package instructions. In a blender, combine basil leaves, garlic, olive oil, and parmesan cheese until smooth. Toss the cooked pasta with the pesto sauce and serve.",
+                  "rating": 4.8
+                }
+      ],
       "viewRecipesBtn": {
         "text": "View Recipes",
         "url": "https://www.example.com/margherita-pizza/recipes"
@@ -25,11 +104,48 @@
     },
     {
       "id": 3,
-      "imgUrl": "https://www.example.com/lasagna.jpg",
+      "imgUrl": "https://i.ibb.co/pWxJmZ2/chef-3.jpg",
       "chef": "Giada De Laurentiis",
       "experience": 25,
       "numRecipes": 10,
-      
+      "bio": "Giada De Laurentiis is an Italian chef and restaurateur who is widely considered to be the founder of modern Italian cuisine. He was the first Italian chef to be awarded three Michelin stars and has been honored with numerous awards throughout his career.",
+      "likes": 12000,
+      "recipes":[
+        {
+          "name": "Chicken Marsala",
+          "ingredients": [
+            "chicken breasts",
+            "flour",
+            "marsala wine",
+            "chicken broth",
+            "butter"
+          ],
+          "cookingMethod": "Season the chicken breasts with salt and pepper, and dredge in flour. In a skillet, melt butter and sauté the chicken until browned on both sides. Add marsala wine and chicken broth and bring to a simmer until the chicken is cooked through and the sauce has thickened.",
+          "rating": 4.8
+        },
+        {
+          "name": "Bolognese Sauce",
+          "ingredients": [
+            "ground beef",
+            "onion"
+          ],
+          
+          "cookingMethod": "Grate the cheese and place it in a bowl. Mix in the chopped pistachios, balsamic vinegar, and black pepper. Drizzle with extra-virgin olive oil and serve.",
+          "rating": 4.8
+        },
+        {
+          "name":"Balsamic Vinegar Jelly",
+          "ingredients": [
+            "balsamic vinegar",
+            "sugar",
+            "pectin",
+            "lemon juice",
+            "water"
+          ],
+          "cookingMethod": "Grate the cheese and place it in a bowl. Mix in the chopped pistachios, balsamic vinegar, and black pepper. Drizzle with extra-virgin olive oil and serve.",
+          "rating": 4.8
+        }
+],
       "viewRecipesBtn": {
         "text": "View Recipes",
         "url": "https://www.example.com/lasagna/recipes"
@@ -37,11 +153,51 @@
     },
     {
       "id": 4,
-      "imgUrl": "https://www.example.com/tiramisu.jpg",
+      "imgUrl": "https://i.ibb.co/ZG9XnWt/chef-4.jpg",
       "chef": "Massimo Bottura",
       "experience": 15,
       "numRecipes": 6,
-      
+      "bio": "Massimo Bottura is an Italian chef and restaurateur who is the owner of several restaurants in Italy, including Ristorante Cracco in Milan. He is known for his innovative approach to Italian cuisine and has been featured on several cooking shows, including MasterChef Italia.",
+      "likes": 15000,
+      "recipes":[
+        {
+          "name": "Spaghetti Carbonara",
+          "ingredients": [
+            "spaghetti",
+            "eggs",
+            "bacon",
+            "pecorino romano cheese",
+            "black pepper"
+          ],
+          "cookingMethod": "Boil the spaghetti according to package instructions. In a separate pan, fry bacon until crispy. In a bowl, whisk eggs, pecorino romano cheese, and black pepper. Drain the spaghetti and toss with the bacon. Add the egg mixture and stir until the spaghetti is coated and the eggs are cooked.",
+          "rating": 4.8
+        },
+        {
+          "name": "Bruschetta",
+          "ingredients": [
+            "baguette",
+            "tomatoes",
+            "garlic",
+            "olive oil",
+            "basil leaves"
+          ],
+          
+          "cookingMethod": "Slice the baguette and toast it in the oven. Dice the tomatoes and toss with minced garlic, olive oil, and chopped basil leaves. Spoon the tomato mixture onto the toasted bread and serve.",
+          "rating": 4.8
+        },
+        {
+          "name": "Fettuccine Alfredo",
+          "ingredients": [
+            "fettuccine",
+            "butter",
+            "heavy cream",
+            "parmesan cheese",
+            "black pepper"
+          ],
+          "cookingMethod": "Boil the fettuccine according to package instructions. In a separate pan, melt butter and heavy cream over medium heat. Add grated parmesan cheese and black pepper and stir until the sauce is smooth. Drain the fettuccine and toss with the sauce until coated.",
+          "rating": 4.8
+        }
+],
       "viewRecipesBtn": {
         "text": "View Recipes",
         "url": "https://www.example.com/tiramisu/recipes"
@@ -49,11 +205,51 @@
     },
     {
       "id": 5,
-      "imgUrl": "https://www.example.com/pesto-alla-genovese.jpg",
+      "imgUrl": "https://i.ibb.co/p1pyJP1/chef-5.jpg" ,
       "chef": "Lidia Bastianich",
       "experience": 35,
       "numRecipes": 7,
-      
+      "bio": "Lidia Bastianich is an Italian chef and restaurateur who is the owner of Piazza Duomo, a three-Michelin-star restaurant in Alba, Italy. He is known for his use of fresh, local ingredients in his dishes and has been featured on several cooking shows and publications.",
+      "likes": 10000,
+      "recipes":[
+        {
+          "name": "Tiramisu",
+          "ingredients": [
+            "ladyfingers",
+            "espresso",
+            "marsala wine",
+            "mascarpone cheese",
+            "cocoa powder"
+          ],
+          "cookingMethod": "Dip the ladyfingers in a mixture of espresso and marsala wine. Layer the soaked ladyfingers in a dish. In a separate bowl, mix mascarpone cheese with sugar and spread over the ladyfingers. Dust with cocoa powder and chill in the refrigerator for at least 2 hours before serving.",
+          "rating": 4.8
+        },
+        {
+          "name": "Minestrone Soup",
+          "ingredients": [
+            "vegetable broth",
+            "canned tomatoes",
+            "carrots",
+            "celery",
+            "pasta"
+          ],
+          
+          "cookingMethod": "In a large pot, bring vegetable broth and canned tomatoes to a boil. Add diced carrots and celery and simmer until tender. Add pasta and cook until al dente. Serve hot with grated parmesan cheese.",
+          "rating": 4.8
+        },
+        {
+          "name": "Chicken Parmesan",
+          "ingredients": [
+            "boneless chicken breasts",
+            "flour",
+            "eggs",
+            "breadcrumbs",
+            "tomato sauce"
+          ],
+          "cookingMethod": "Preheat the oven to 375°F. Coat the chicken breasts in flour, dip in beaten eggs, and coat in breadcrumbs. Fry in a pan until golden brown. Place the chicken in a baking dish and top with tomato sauce and shredded mozzarella cheese. Bake for 15-20 minutes until the cheese is melted and bubbly.",
+          "rating": 4.8
+        }
+],
       "viewRecipesBtn": {
         "text": "View Recipes",
         "url": "https://www.example.com/pesto-alla-genovese/recipes"
@@ -61,11 +257,50 @@
     },
     {
       "id": 6,
-      "imgUrl": "https://www.example.com/osso-buco.jpg",
+      "imgUrl": "https://i.ibb.co/5B9xxPP/chef-6.jpg",
       "chef": "Gualtiero Marchesi",
       "experience": 40,
       "numRecipes": 5,
-      
+      "bio": "Gualtiero Marchesi is an Italian chef and restaurateur who is the owner of Dal Pescatore, a three-Michelin-star restaurant in Mantova, Italy. She is known for her traditional approach to Italian cuisine and has been honored with numerous awards throughout her career.",
+      "likes": 8000,
+      "recipes":[
+        {
+          "name": "Caprese Salad",
+          "ingredients": [
+            "tomatoes",
+            "fresh mozzarella",
+            "fresh basil",
+            "balsamic vinegar",
+            "olive oil"
+          ],
+          "cookingMethod": "Slice tomatoes and fresh mozzarella and arrange them on a platter. Top with fresh basil leaves. Drizzle with balsamic vinegar and olive oil and sprinkle with salt and black pepper to taste.",
+          "rating": 4.8
+        },
+        {
+          "name": "Pesto Pasta",
+          "ingredients":[
+            "pistachios",
+          "balsamic vinegar",
+          "extra-virgin olive oil",
+          "black pepper"
+          ],
+          
+          "cookingMethod": "Boil the pasta according to package instructions. In a food processor, combine fresh basil, pine nuts, garlic, and olive oil and blend until smooth. Toss the cooked pasta with the pesto until coated.",
+          "rating": 4.8
+        },
+        {
+          "name": "Bruschetta",
+          "ingredients": [
+            "baguette",
+            "tomatoes",
+            "garlic",
+            "olive oil",
+            "balsamic vinegar"
+          ],
+          "cookingMethod": "Slice the baguette and brush with olive oil. Toast in the oven until crispy. In a separate bowl, mix diced tomatoes with garlic, olive oil, and balsamic vinegar. Spoon the tomato mixture over the toasted baguette slices and serve.",
+          "rating": 4.8
+        }
+],
       "viewRecipesBtn": {
         "text": "View Recipes",
         "url": "https://www.example.com/osso-buco/recipes"
